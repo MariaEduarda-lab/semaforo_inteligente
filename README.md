@@ -79,7 +79,7 @@ O projeto completo será submetido ao GitHub com os seguintes itens:
 1.  **Montagem Física:** Representada por uma foto ou diagrama (documentado em vídeo).
 2.  **Código-Fonte:** [ponderada_prog.ino](ponderada_prog.ino)
 3.  **Vídeo Demonstrativo:** Comprovação do funcionamento da lógica de $\text{Modo Noturno/LDR}$ e da $\text{Prioridade por Veículo/Ultrassônico}$.
-[vídeo1](semaforo1.mp4)
-[vídeo2](semaforo2.mp4)
+[vídeo1](https://youtu.be/SVhzjTpDIkU)
+[vídeo2](https://youtube.com/shorts/6VE71d5em4s)
 4.  **Como usar o ubidots para ter acesso as variáveis?** O Ubidots atua como um intermediário inteligente (hub de dados) para a Internet das Coisas (IoT). Ele recebe dados brutos (como leituras de $\text{LDR}$ e $\text{distância}$) do seu dispositivo ESP32 via protocolos como MQTT, utilizando um Token da API para autenticação. A plataforma armazena esses dados em Variáveis dentro de um Dispositivo específico, permitindo que você visualize o histórico e o status em tempo real. Além disso, a principal função do Ubidots é permitir a criação de Dashboards (interfaces online) com Widgets (gráficos e indicadores) que transformam esses dados em informações visuais úteis, e, crucialmente, também permite o Controle Remoto, enviando comandos de volta para o ESP32 (como ligar o $\text{Modo Noturno}$) através dos mesmos protocolos de comunicação.
 Para ter acesso, é preciso conectar o token **BBUS-hRRfiBCNVYEtObCygTMr0NnD8KCObp** com a label **semaforo_inteligente**. Apesar de tentar ser feito cada detalhe, por problemas com a plataforma, o grupo não conseguiu receber as informações das variáveis, enfrentando dificuldades com tais, apesar de existir toda a conexão e retorno no código.
